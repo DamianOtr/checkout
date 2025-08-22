@@ -1,7 +1,8 @@
 # checkout
+
 Test checkoutu - Cypress
 
-Przypadki testowe:
+**Przypadki testowe:**
 
 1. Poprawne wypełnienie danych osobowych w pierwszym kroku
 
