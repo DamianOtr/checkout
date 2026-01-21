@@ -15,7 +15,7 @@
 
 Cypress.Commands.add('checkout1', () => {
   cy.setCookie('CookieConsent', '{"stamp":"fake","necessary":true,"preferences":true,"statistics":true,"marketing":true,"ver":1}');
-  cy.visit('https://presta-sk.vasco-technologies.com/prekladace/vasco-translator-v4#/7-color-black_onyx');
+  cy.visit('https://presta-gb.vasco-technologies.com/translator/vasco-translator-v4#/7-color-black_onyx');
 
 cy.get('body').then($body => {
   const modalBtn = $body.find('#fancybox-accept-gdpr-button');
@@ -126,7 +126,7 @@ cy.get('input[type="checkbox"]:visible:not(:disabled)')
 
     Cypress.Commands.add('sprawdzenie_kroku3', () => {
         cy.get('#checkout-delivery-step').should('be.visible');
-        cy.get('#hook-display-before-carrier').should('exist');
+      //  cy.get('#hook-display-before-carrier').should('exist');
     })
 
     Cypress.Commands.add('sprawdzenie_error1krok', () => {

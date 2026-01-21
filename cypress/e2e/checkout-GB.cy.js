@@ -6,7 +6,7 @@
   
     beforeEach(() => {
       cy.log('Przygotowanie: Dodanie produktu do koszyka i przejście do checkoutu');
-        cy.checkout()
+        cy.checkout1()
       });
     
     it('Poprawne wypełnienie danych osobowych w pierwszym kroku', () => {
