@@ -1,4 +1,4 @@
-# checkout
+# Checkout - test na GB
 
 Test checkoutu - Cypress
 
@@ -29,3 +29,31 @@ Test checkoutu - Cypress
 12. Niepoprawny kod pocztowy (np. @)
 
 13. Niepoprawne miasto (np. @@@)
+
+# Checkout - smoke test na wszystkich rynkach
+
+Happy path checkoutu na kazdym z rynków - Cypress
+
+**Wykonane kroki w teście:**
+
+1. Dodanie produktu do koszyka
+
+2. Przejście do koszyka
+
+3. Przejście do pierwszego kroku checkoutu
+
+4. Poprawne wypełnienie kroku pierwszego “Informacje osobiste“
+
+5. Przejście do drugiego kroku checkoutu
+
+6. Poprawne wypełnienie kroku drugiego “Adresy“
+
+7. Przejście do trzeciego kroku checkoutu
+
+8. Zaznaczenie metody wysyłki 
+
+9. Przejście do czwartego kroku checkoutu → Koniec
+
+10. Zaznaczenie metody płatności
+
+11. Finalizacja zamówienia
